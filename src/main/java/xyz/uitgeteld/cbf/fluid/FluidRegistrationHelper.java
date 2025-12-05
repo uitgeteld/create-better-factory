@@ -22,7 +22,7 @@ public class FluidRegistrationHelper {
                 .viscosity(6000)
                 .motionScale(0.007)
                 .lightLevel(15)
-                .canConvertToSource(false);
+                .canConvertToSource(true);
     }
 
     public static FluidType.Properties createMoltenFluidTypeProperties(int density, int viscosity, int lightLevel) {
@@ -31,7 +31,7 @@ public class FluidRegistrationHelper {
                 .viscosity(viscosity)
                 .motionScale(0.007)
                 .lightLevel(lightLevel)
-                .canConvertToSource(false);
+                .canConvertToSource(true);
     }
 
     public static ForgeFlowingFluid.Properties createMoltenFluidProperties(

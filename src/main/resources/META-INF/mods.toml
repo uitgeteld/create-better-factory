@@ -61,3 +61,12 @@ mandatory = true
 versionRange = "${minecraft_version_range}"
 ordering = "NONE"
 side = "BOTH"
+
+# Create mod dependency
+[[dependencies."${mod_id}"]]
+modId = "create"
+mandatory = false
+versionRange = "[6.0.8,)"
+ordering = "NONE"
+side = "BOTH"
+

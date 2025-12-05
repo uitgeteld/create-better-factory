@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "fluid": "cbf:molten_iron",
+      "amount": 810
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "processingTime": 100
+}
+
