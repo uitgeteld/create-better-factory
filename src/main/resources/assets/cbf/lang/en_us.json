@@ -1,0 +1,10 @@
+{
+  "item.cbf.raw_iron_chunk": "Raw Iron Chunk",
+
+  "fluid.cbf.molten_iron": "Molten Iron",
+  "fluid_type.cbf.molten_iron": "Molten Iron",
+  "item.cbf.molten_iron_bucket": "Molten Iron Bucket",
+  "block.cbf.molten_iron_block": "Molten Iron",
+
+  "itemGroup.cbf": "Create Better Factory"
+}
