@@ -61,17 +61,19 @@ public class FluidRegistrationHelper {
 
     public static IClientFluidTypeExtensions createClientExtensions(String name) {
         return new IClientFluidTypeExtensions() {
-            private final ResourceLocation TEXTURE = new ResourceLocation(
+            private final ResourceLocation STILL_TEXTURE = new ResourceLocation(
                     Cbf.MODID, "block/" + name);
+            private final ResourceLocation FLOWING_TEXTURE = new ResourceLocation(
+                    Cbf.MODID, "block/" + name + "_flowing");
 
             @Override
             public @NotNull ResourceLocation getStillTexture() {
-                return TEXTURE;
+                return STILL_TEXTURE;
             }
 
             @Override
             public @NotNull ResourceLocation getFlowingTexture() {
-                return TEXTURE;
+                return FLOWING_TEXTURE;
             }
         };
     }

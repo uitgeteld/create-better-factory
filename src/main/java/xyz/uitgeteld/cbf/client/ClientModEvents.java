@@ -14,13 +14,15 @@ public class ClientModEvents {
 
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
-        ItemBlockRenderTypes.setRenderLayer(ModFluids.MOLTEN_IRON.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModFluids.MOLTEN_IRON_FLOWING.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModFluids.MOLTEN_COPPER.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModFluids.MOLTEN_COPPER_FLOWING.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModFluids.MOLTEN_ZINC.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModFluids.MOLTEN_ZINC_FLOWING.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModFluids.MOLTEN_BRASS.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModFluids.MOLTEN_BRASS_FLOWING.get(), RenderType.translucent());
+        setFluidRenderLayer(ModFluids.MOLTEN_IRON);
+        setFluidRenderLayer(ModFluids.MOLTEN_COPPER);
+        setFluidRenderLayer(ModFluids.MOLTEN_ZINC);
+        setFluidRenderLayer(ModFluids.MOLTEN_GOLD);
+        setFluidRenderLayer(ModFluids.MOLTEN_BRASS);
+    }
+
+    private static void setFluidRenderLayer(xyz.uitgeteld.cbf.fluid.FluidRegistry fluid) {
+        ItemBlockRenderTypes.setRenderLayer(fluid.getSource().get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(fluid.getFlowing().get(), RenderType.translucent());
     }
 }

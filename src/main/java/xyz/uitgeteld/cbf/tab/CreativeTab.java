@@ -7,6 +7,7 @@ import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import xyz.uitgeteld.cbf.Cbf;
+import xyz.uitgeteld.cbf.fluid.ModFluids;
 import xyz.uitgeteld.cbf.item.ModItems;
 
 public class CreativeTab {
@@ -16,14 +17,16 @@ public class CreativeTab {
             CREATIVE_MODE_TABS.register("cbf", () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.cbf"))
                     .withTabsBefore(CreativeModeTabs.COMBAT)
-                    .icon(() -> ModItems.MOLTEN_IRON_BUCKET.get().getDefaultInstance())
+                    .icon(() -> ModFluids.MOLTEN_IRON.getBucket().get().getDefaultInstance())
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.RAW_IRON_CHUNK.get());
                         output.accept(ModItems.RAW_COPPER_CHUNK.get());
-                        output.accept(ModItems.MOLTEN_IRON_BUCKET.get());
-                        output.accept(ModItems.MOLTEN_COPPER_BUCKET.get());
-                        output.accept(ModItems.MOLTEN_ZINC_BUCKET.get());
-                        output.accept(ModItems.MOLTEN_BRASS_BUCKET.get());
+                        output.accept(ModItems.RAW_ZINC_CHUNK.get());
+                        output.accept(ModFluids.MOLTEN_IRON.getBucket().get());
+                        output.accept(ModFluids.MOLTEN_COPPER.getBucket().get());
+                        output.accept(ModFluids.MOLTEN_ZINC.getBucket().get());
+                        output.accept(ModFluids.MOLTEN_GOLD.getBucket().get());
+                        output.accept(ModFluids.MOLTEN_BRASS.getBucket().get());
                     }).build());
 }
 
