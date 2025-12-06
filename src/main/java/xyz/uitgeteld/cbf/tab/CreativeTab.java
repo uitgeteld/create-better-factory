@@ -19,7 +19,11 @@ public class CreativeTab {
                     .icon(() -> ModItems.MOLTEN_IRON_BUCKET.get().getDefaultInstance())
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.RAW_IRON_CHUNK.get());
+                        output.accept(ModItems.RAW_COPPER_CHUNK.get());
                         output.accept(ModItems.MOLTEN_IRON_BUCKET.get());
+                        output.accept(ModItems.MOLTEN_COPPER_BUCKET.get());
+                        output.accept(ModItems.MOLTEN_ZINC_BUCKET.get());
+                        output.accept(ModItems.MOLTEN_BRASS_BUCKET.get());
                     }).build());
 }
 

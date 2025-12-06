@@ -2,16 +2,16 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "item": "cbf:raw_iron_chunk"
+      "item": "cbf:raw_copper_chunk"
     }
   ],
   "results": [
     {
-      "fluid": "cbf:molten_iron",
-      "amount": 810
+      "fluid": "cbf:molten_copper",
+      "amount": 45
     }
   ],
   "heatRequirement": "heated",
-  "processingTime": 200
+  "processingTime": 100
 }
 

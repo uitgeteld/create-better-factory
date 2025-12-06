@@ -3,7 +3,7 @@
   "ingredients": [
     {
       "fluid": "cbf:molten_iron",
-      "amount": 810
+      "amount": 45
     }
   ],
   "results": [
@@ -11,6 +11,6 @@
       "item": "minecraft:iron_ingot"
     }
   ],
-  "processingTime": 100
+  "processingTime": 200
 }
 

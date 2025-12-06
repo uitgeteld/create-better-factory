@@ -4,7 +4,16 @@
   "fluid.cbf.molten_iron": "Molten Iron",
   "fluid_type.cbf.molten_iron": "Molten Iron",
   "item.cbf.molten_iron_bucket": "Molten Iron Bucket",
-  "block.cbf.molten_iron_block": "Molten Iron",
+  "block.cbf.molten_iron_block": "Molten Iron Block",
+
+  "item.cbf.molten_copper_bucket": "Molten Copper Bucket",
+  "block.cbf.molten_copper_block": "Molten Copper Block",
+
+  "item.cbf.molten_zinc_bucket": "Molten Zinc Bucket",
+  "block.cbf.molten_zinc_block": "Molten Zinc Block",
+
+  "item.cbf.molten_brass_bucket": "Molten Brass Bucket",
+  "block.cbf.molten_brass_block": "Molten Brass Block",
 
   "itemGroup.cbf": "Create Better Factory"
 }

@@ -19,4 +19,31 @@ public class ModFluidTypes {
                             consumer.accept(FluidRegistrationHelper.createClientExtensions("molten_iron"));
                         }
                     });
+
+    public static final RegistryObject<FluidType> MOLTEN_COPPER_TYPE =
+            FLUID_TYPES.register("molten_copper",
+                    () -> new FluidType(FluidRegistrationHelper.createMoltenFluidTypeProperties()) {
+                        @Override
+                        public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.extensions.common.IClientFluidTypeExtensions> consumer) {
+                            consumer.accept(FluidRegistrationHelper.createClientExtensions("molten_copper"));
+                        }
+                    });
+
+    public static final RegistryObject<FluidType> MOLTEN_ZINC_TYPE =
+            FLUID_TYPES.register("molten_zinc",
+                    () -> new FluidType(FluidRegistrationHelper.createMoltenFluidTypeProperties()) {
+                        @Override
+                        public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.extensions.common.IClientFluidTypeExtensions> consumer) {
+                            consumer.accept(FluidRegistrationHelper.createClientExtensions("molten_zinc"));
+                        }
+                    });
+
+    public static final RegistryObject<FluidType> MOLTEN_BRASS_TYPE =
+            FLUID_TYPES.register("molten_brass",
+                    () -> new FluidType(FluidRegistrationHelper.createMoltenFluidTypeProperties()) {
+                        @Override
+                        public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.extensions.common.IClientFluidTypeExtensions> consumer) {
+                            consumer.accept(FluidRegistrationHelper.createClientExtensions("molten_brass"));
+                        }
+                    });
 }

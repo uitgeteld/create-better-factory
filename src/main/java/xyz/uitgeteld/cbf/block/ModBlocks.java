@@ -18,4 +18,19 @@ public class ModBlocks {
             BLOCKS.register("molten_iron_block",
                     () -> new LiquidBlock(ModFluids.MOLTEN_IRON,
                             FluidRegistrationHelper.createMoltenFluidBlockProperties(15)));
+
+    public static final RegistryObject<LiquidBlock> MOLTEN_COPPER_BLOCK =
+            BLOCKS.register("molten_copper_block",
+                    () -> new LiquidBlock(ModFluids.MOLTEN_COPPER,
+                            FluidRegistrationHelper.createMoltenFluidBlockProperties(15)));
+
+    public static final RegistryObject<LiquidBlock> MOLTEN_ZINC_BLOCK =
+            BLOCKS.register("molten_zinc_block",
+                    () -> new LiquidBlock(ModFluids.MOLTEN_ZINC,
+                            FluidRegistrationHelper.createMoltenFluidBlockProperties(15)));
+
+    public static final RegistryObject<LiquidBlock> MOLTEN_BRASS_BLOCK =
+            BLOCKS.register("molten_brass_block",
+                    () -> new LiquidBlock(ModFluids.MOLTEN_BRASS,
+                            FluidRegistrationHelper.createMoltenFluidBlockProperties(15)));
 }

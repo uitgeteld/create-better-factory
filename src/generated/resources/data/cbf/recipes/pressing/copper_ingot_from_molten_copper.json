@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "fluid": "cbf:molten_copper",
+      "amount": 45
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "processingTime": 200
+}
+
