@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#cbf:molten_iron",
+    "#cbf:molten_copper",
+    "#cbf:molten_zinc",
+    "#cbf:molten_brass"
+  ]
+}

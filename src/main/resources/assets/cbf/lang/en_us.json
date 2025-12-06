@@ -1,19 +1,33 @@
 {
   "item.cbf.raw_iron_chunk": "Raw Iron Chunk",
+  "item.cbf.raw_copper_chunk": "Raw Copper Chunk",
+  "item.cbf.raw_zinc_chunk": "Raw Zinc Chunk",
+  "item.cbf.raw_gold_chunk": "Raw Gold Chunk",
 
   "fluid.cbf.molten_iron": "Molten Iron",
   "fluid_type.cbf.molten_iron": "Molten Iron",
   "item.cbf.molten_iron_bucket": "Molten Iron Bucket",
   "block.cbf.molten_iron_block": "Molten Iron Block",
 
+  "fluid.cbf.molten_copper": "Molten Copper",
+  "fluid_type.cbf.molten_copper": "Molten Copper",
   "item.cbf.molten_copper_bucket": "Molten Copper Bucket",
   "block.cbf.molten_copper_block": "Molten Copper Block",
 
+  "fluid.cbf.molten_zinc": "Molten Zinc",
+  "fluid_type.cbf.molten_zinc": "Molten Zinc",
   "item.cbf.molten_zinc_bucket": "Molten Zinc Bucket",
   "block.cbf.molten_zinc_block": "Molten Zinc Block",
 
+  "fluid.cbf.molten_gold": "Molten Gold",
+  "fluid_type.cbf.molten_gold": "Molten Gold",
+  "item.cbf.molten_gold_bucket": "Molten Gold Bucket",
+  "block.cbf.molten_gold_block": "Molten Gold Block",
+
+  "fluid.cbf.molten_brass": "Molten Brass",
+  "fluid_type.cbf.molten_brass": "Molten Brass",
   "item.cbf.molten_brass_bucket": "Molten Brass Bucket",
   "block.cbf.molten_brass_block": "Molten Brass Block",
 
-  "itemGroup.cbf": "Create Better Factory"
+  "itemGroup.cbf": "Create: Better Factory"
 }
