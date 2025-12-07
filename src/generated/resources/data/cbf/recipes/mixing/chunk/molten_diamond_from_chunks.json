@@ -8,7 +8,7 @@
   "results": [
     {
       "fluid": "cbf:molten_diamond",
-      "amount": 45
+      "amount": 5
     }
   ],
   "heatRequirement": "superheated",
