@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:diorite",
+      "amount": 4
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:calcite",
+      "amount": 4
+    }
+  ],
+  "processingTime": 100
+}
