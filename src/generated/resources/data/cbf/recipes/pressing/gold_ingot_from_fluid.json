@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "fluid": "cbf:molten_gold",
+      "amount": 45
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "processingTime": 200
+}
+

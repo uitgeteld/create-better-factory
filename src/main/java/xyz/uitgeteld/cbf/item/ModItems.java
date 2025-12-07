@@ -13,6 +13,7 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_COPPER_CHUNK = ITEMS.register("raw_copper_chunk", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_ZINC_CHUNK = ITEMS.register("raw_zinc_chunk", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_GOLD_CHUNK = ITEMS.register("raw_gold_chunk", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_DIAMOND_CHUNK = ITEMS.register("raw_diamond_chunk", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> DEEPSLATE_CHUNK = ITEMS.register("deepslate_chunk", () -> new Item(new Item.Properties()));
 
 }

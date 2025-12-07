@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "fluid": "cbf:molten_brass",
+      "amount": 45
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:brass_ingot"
+    }
+  ],
+  "processingTime": 200
+}
+

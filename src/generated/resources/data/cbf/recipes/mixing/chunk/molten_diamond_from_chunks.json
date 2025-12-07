@@ -2,15 +2,15 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "item": "cbf:raw_copper_chunk"
+      "item": "cbf:raw_diamond_chunk"
     }
   ],
   "results": [
     {
-      "fluid": "cbf:molten_copper",
+      "fluid": "cbf:molten_diamond",
       "amount": 45
     }
   ],
-  "heatRequirement": "heated",
+  "heatRequirement": "superheated",
   "processingTime": 200
 }
