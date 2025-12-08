@@ -23,12 +23,8 @@
       "chance": 0.15
     },
     {
-      "item": "cbf:raw_diamond_chunk",
-      "chance": 0.01
-    },
-    {
       "item": "create:experience_nugget",
-      "chance": 0.09
+      "chance": 0.1
     }
   ],
   "processingTime": 300

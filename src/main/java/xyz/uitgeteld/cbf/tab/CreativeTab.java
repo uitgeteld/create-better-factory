@@ -23,13 +23,11 @@ public class CreativeTab {
                         output.accept(ModItems.RAW_COPPER_CHUNK.get());
                         output.accept(ModItems.RAW_ZINC_CHUNK.get());
                         output.accept(ModItems.RAW_GOLD_CHUNK.get());
-                        output.accept(ModItems.RAW_DIAMOND_CHUNK.get());
                         output.accept(ModItems.DEEPSLATE_CHUNK.get());
                         output.accept(ModFluids.MOLTEN_IRON.getBucket().get());
                         output.accept(ModFluids.MOLTEN_COPPER.getBucket().get());
                         output.accept(ModFluids.MOLTEN_ZINC.getBucket().get());
                         output.accept(ModFluids.MOLTEN_GOLD.getBucket().get());
-                        output.accept(ModFluids.MOLTEN_DIAMOND.getBucket().get());
                         output.accept(ModFluids.MOLTEN_BRASS.getBucket().get());
                     }).build());
 }

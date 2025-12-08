@@ -4,7 +4,6 @@
   "item.cbf.raw_copper_chunk": "Raw Copper Chunk",
   "item.cbf.raw_zinc_chunk": "Raw Zinc Chunk",
   "item.cbf.raw_gold_chunk": "Raw Gold Chunk",
-  "item.cbf.raw_diamond_chunk": "Raw Diamond Chunk",
 
   "fluid.cbf.molten_iron": "Molten Iron",
   "fluid_type.cbf.molten_iron": "Molten Iron",
@@ -25,11 +24,6 @@
   "fluid_type.cbf.molten_gold": "Molten Gold",
   "item.cbf.molten_gold_bucket": "Molten Gold Bucket",
   "block.cbf.molten_gold_block": "Molten Gold Block",
-
-  "fluid.cbf.molten_diamond": "Molten Diamond",
-  "fluid_type.cbf.molten_diamond": "Molten Diamond",
-  "item.cbf.molten_diamond_bucket": "Molten Diamond Bucket",
-  "block.cbf.molten_diamond_block": "Molten Diamond Block",
 
   "fluid.cbf.molten_brass": "Molten Brass",
   "fluid_type.cbf.molten_brass": "Molten Brass",
