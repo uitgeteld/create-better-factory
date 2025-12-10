@@ -30,6 +30,7 @@ public class CreativeTab {
                         output.accept(ModFluids.MOLTEN_GOLD.getBucket().get());
                         output.accept(ModFluids.MOLTEN_BRASS.getBucket().get());
                         output.accept(ModFluids.HEAVY_METAL.getBucket().get());
+                        output.accept(ModFluids.IRRIATED_MIX.getBucket().get());
                     }).build());
 }
 

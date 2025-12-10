@@ -35,5 +35,10 @@
   "item.cbf.heavy_metal_bucket": "Heavy Metal Bucket",
   "block.cbf.heavy_metal_block": "Heavy Metal Block",
 
+  "fluid.cbf.irriated_mix": "Irriated Mix",
+  "fluid_type.cbf.irriated_mix": "Irriated Mix",
+  "item.cbf.irriated_mix_bucket": "Irriated Mix Bucket",
+  "block.cbf.irriated_mix_block": "Irriated Mix Block",
+
   "itemGroup.cbf": "Create: Better Factory"
 }

@@ -17,7 +17,8 @@ public class ModFluids {
     public static final FluidRegistry MOLTEN_ZINC = new FluidRegistry("molten_zinc");
     public static final FluidRegistry MOLTEN_GOLD = new FluidRegistry("molten_gold");
     public static final FluidRegistry MOLTEN_BRASS = new FluidRegistry("molten_brass");
-    public static final FluidRegistry HEAVY_METAL = new FluidRegistry("molten_heavy_metal");
+    public static final FluidRegistry HEAVY_METAL = new FluidRegistry("heavy_metal");
+    public static final FluidRegistry IRRIATED_MIX = new FluidRegistry("irriated_mix");
 
 
     public static RegistryObject<ForgeFlowingFluid.Source> getMoltenIronSource() { return MOLTEN_IRON.getSource(); }
@@ -25,5 +26,6 @@ public class ModFluids {
     public static RegistryObject<ForgeFlowingFluid.Source> getMoltenZincSource() { return MOLTEN_ZINC.getSource(); }
     public static RegistryObject<ForgeFlowingFluid.Source> getMoltenGoldSource() { return MOLTEN_GOLD.getSource(); }
     public static RegistryObject<ForgeFlowingFluid.Source> getMoltenBrassSource() { return MOLTEN_BRASS.getSource(); }
-    public static RegistryObject<ForgeFlowingFluid.Source> getMoltenHeavyMetalSource() { return HEAVY_METAL.getSource(); }
+    public static RegistryObject<ForgeFlowingFluid.Source> getHeavyMetalSource() { return HEAVY_METAL.getSource(); }
+    public static RegistryObject<ForgeFlowingFluid.Source> getIrriatedMixSource() { return IRRIATED_MIX.getSource(); }
 }

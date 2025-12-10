@@ -6,12 +6,13 @@
       "amount": 45
     },
     {
-      "tag": "#stone"
+      "tag": "cbf:ore_bearings",
+      "count": 4
     }
   ],
   "results": [
     {
-      "item": "create:raw_uranium"
+      "item": "createnuclear:raw_uranium"
     }
   ],
   "processingTime": 200

@@ -5,6 +5,7 @@
     "#cbf:molten_copper",
     "#cbf:molten_zinc",
     "#cbf:molten_gold",
-    "#cbf:molten_brass"
+    "#cbf:molten_brass",
+    "#cbf:heavy_metal"
   ]
 }
