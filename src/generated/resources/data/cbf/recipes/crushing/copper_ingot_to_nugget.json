@@ -8,16 +8,14 @@
   "results": [
     {
       "item": "minecraft:copper_nugget",
-      "count": 2,
-      "chance": 1
+      "count": 2
     },
     {
       "item": "minecraft:copper_nugget",
       "chance": 0.3
     },
     {
-      "item": "minecraft:gravel",
-      "chance": 1
+      "item": "minecraft:gravel"
     },
     {
       "item": "minecraft:copper_ingot",

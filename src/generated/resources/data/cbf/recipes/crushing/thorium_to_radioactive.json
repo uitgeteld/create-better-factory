@@ -1,0 +1,28 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create_new_age:thorium"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_new_age:radioactive_thorium",
+      "count": 5
+    },
+    {
+      "item": "create_new_age:radioactive_thorium",
+      "count": 15,
+      "chance": 0.3
+    },
+    {
+      "item": "minecraft:iron_nugge",
+      "chance": 0.1
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.05
+    }
+  ],
+  "processingTime": 300
+}
