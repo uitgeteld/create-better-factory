@@ -19,6 +19,7 @@ public class ClientModEvents {
         setFluidRenderLayer(ModFluids.MOLTEN_ZINC);
         setFluidRenderLayer(ModFluids.MOLTEN_GOLD);
         setFluidRenderLayer(ModFluids.MOLTEN_BRASS);
+        setFluidRenderLayer(ModFluids.HEAVY_METAL);
     }
 
     private static void setFluidRenderLayer(xyz.uitgeteld.cbf.fluid.FluidRegistry fluid) {

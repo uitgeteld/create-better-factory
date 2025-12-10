@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "cbf:molten_zinc",
+      "amount": 45
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:lime_dye"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "cbf:irriated_mix",
+      "amount": 45
+    }
+  ],
+  "heatRequirement": "heated",
+  "processingTime": 200
+}

@@ -1,0 +1,27 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:copper_nugget",
+      "chance": 1
+    },
+    {
+      "item": "minecraft:copper_nugget",
+      "chance": 0.3
+    },
+    {
+      "item": "minecraft:gravel",
+      "chance": 1
+    },
+    {
+      "item": "minecraft:copper_ingot",
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 200
+}

@@ -30,5 +30,10 @@
   "item.cbf.molten_brass_bucket": "Molten Brass Bucket",
   "block.cbf.molten_brass_block": "Molten Brass Block",
 
+  "fluid.cbf.heavy_metal": "Heavy Metal",
+  "fluid_type.cbf.heavy_metal": "Heavy Metal",
+  "item.cbf.heavy_metal_bucket": "Heavy Metal Bucket",
+  "block.cbf.heavy_metal_block": "Heavy Metal Block",
+
   "itemGroup.cbf": "Create: Better Factory"
 }

@@ -1,0 +1,18 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "fluid": "cbf:irriated_mix",
+      "amount": 45
+    },
+    {
+      "tag": "#stone"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:raw_uranium"
+    }
+  ],
+  "processingTime": 200
+}
