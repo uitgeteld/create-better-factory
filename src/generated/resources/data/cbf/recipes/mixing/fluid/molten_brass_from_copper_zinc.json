@@ -3,11 +3,11 @@
   "ingredients": [
     {
       "fluid": "cbf:molten_copper",
-      "amount": 35
+      "amount": 15
     },
     {
       "fluid": "cbf:molten_zinc",
-      "amount": 55
+      "amount": 30
     }
   ],
   "results": [
