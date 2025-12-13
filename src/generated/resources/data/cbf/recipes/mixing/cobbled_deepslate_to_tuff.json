@@ -2,8 +2,16 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "item": "minecraft:cobbled_deepslate",
-      "count": 4
+      "item": "minecraft:cobbled_deepslate"
+    },
+    {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    {
+      "item": "minecraft:cobbled_deepslate"
     }
   ],
   "results": [
