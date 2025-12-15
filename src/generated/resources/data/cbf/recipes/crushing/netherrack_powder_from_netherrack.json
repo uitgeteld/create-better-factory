@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:netherrack"
+    }
+  ],
+  "results": [
+    {
+      "item": "cbf:netherrack_powder",
+      "count": 4
+    },
+    {
+      "item": "minecraft:quartz",
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "chance": 0.2
+    }
+  ],
+  "processingTime": 300
+}
