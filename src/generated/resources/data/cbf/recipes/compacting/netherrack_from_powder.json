@@ -1,0 +1,21 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "fluid": "minecraft:lava",
+      "amount": 45
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "cbf:netherrack_powder"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:netherrack"
+    }
+  ],
+  "processingTime": 200
+}

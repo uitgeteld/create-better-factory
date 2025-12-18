@@ -16,5 +16,6 @@ public class ModItems {
     public static final RegistryObject<Item> DEEPSLATE_CHUNK = ITEMS.register("deepslate_chunk", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> NETHERACK_POWDER = ITEMS.register("netherrack_powder", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> QUARTZ_SHARD = ITEMS.register("quartz_shardd", () -> new Item(new Item.Properties()));
 
 }

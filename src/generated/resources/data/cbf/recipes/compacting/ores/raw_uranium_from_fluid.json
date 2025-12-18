@@ -6,8 +6,16 @@
       "amount": 45
     },
     {
-      "tag": "cbf:ore_bearings",
-      "count": 4
+      "tag": "cbf:ore_bearings"
+    },
+    {
+      "tag": "cbf:ore_bearings"
+    },
+    {
+      "tag": "cbf:ore_bearings"
+    },
+    {
+      "tag": "cbf:ore_bearings"
     }
   ],
   "results": [

@@ -11,8 +11,8 @@
       "count": 4
     },
     {
-      "item": "minecraft:quartz",
-      "chance": 0.1
+      "item": "cbf:quartz_shard",
+      "chance": 0.4
     },
     {
       "item": "minecraft:gold_nugget",
