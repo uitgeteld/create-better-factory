@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "cbf:quartz_shard"
+    },
+    {
+      "item": "cbf:quartz_shard"
+    },
+    {
+      "item": "cbf:quartz_shard"
+    },
+    {
+      "item": "cbf:quartz_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "processingTime": 200
+}
