@@ -33,8 +33,6 @@ public class CreativeTab {
                         output.accept(ModFluids.MOLTEN_BRASS.getBucket().get());
                         output.accept(ModFluids.HEAVY_METAL.getBucket().get());
                         output.accept(ModFluids.IRRIATED_MIX.getBucket().get());
-
-                        output.accept(ModItems.TEETH_SWORD.get());
                     }).build());
 }
 

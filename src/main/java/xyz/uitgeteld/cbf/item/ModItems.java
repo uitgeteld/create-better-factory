@@ -17,6 +17,4 @@ public class ModItems {
 
     public static final RegistryObject<Item> NETHERACK_POWDER = ITEMS.register("netherrack_powder", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> QUARTZ_SHARD = ITEMS.register("quartz_shard", () -> new Item(new Item.Properties()));
-
-    public static final RegistryObject<Item> TEETH_SWORD = ITEMS.register("teeth_sword", () -> new Item(new Item.Properties()));
 }
