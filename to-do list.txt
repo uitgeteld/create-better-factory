@@ -1,3 +1,6 @@
 - Add custom woodburner
 - Finish recipes for netherrack powder/dust
-- Add Quartz-Shards item
+- Add Quartz-Shards item {
+    Tools,
+    Armor
+}
