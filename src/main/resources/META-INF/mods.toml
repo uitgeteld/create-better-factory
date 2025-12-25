@@ -30,9 +30,9 @@ versionRange = "[6.0.8,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies."${mod_id}"]]
-modId = "createnuclear"
-mandatory = true
-versionRange = "[1.3.1,)"
-ordering = "NONE"
-side = "BOTH"
+#[[dependencies."${mod_id}"]]
+#modId = "createnuclear"
+#mandatory = true
+#versionRange = "[1.3.1,)"
+#ordering = "NONE"
+#side = "BOTH"
