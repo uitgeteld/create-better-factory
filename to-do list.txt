@@ -4,3 +4,7 @@
     Tools,
     Armor
 }
+
+- {
+    Make a NeoForge version as well (1.21.x)
+}
