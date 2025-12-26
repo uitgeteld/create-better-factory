@@ -5,6 +5,7 @@ import net.minecraftforge.fluids.ForgeFlowingFluid;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import java.util.List;
 
 import static xyz.uitgeteld.cbf.Cbf.MODID;
 
@@ -20,6 +21,13 @@ public class ModFluids {
     public static final FluidRegistry HEAVY_METAL = new FluidRegistry("heavy_metal");
     public static final FluidRegistry IRRIATED_MIX = new FluidRegistry("irriated_mix");
 
+    private static final List<FluidRegistry> ALL_FLUIDS = List.of(
+            MOLTEN_IRON, MOLTEN_COPPER, MOLTEN_ZINC, MOLTEN_GOLD, MOLTEN_BRASS, HEAVY_METAL, IRRIATED_MIX
+    );
+
+    public static List<FluidRegistry> getAllFluids() {
+        return ALL_FLUIDS;
+    }
 
     public static RegistryObject<ForgeFlowingFluid.Source> getMoltenIronSource() { return MOLTEN_IRON.getSource(); }
     public static RegistryObject<ForgeFlowingFluid.Source> getMoltenCopperSource() { return MOLTEN_COPPER.getSource(); }

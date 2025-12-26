@@ -19,20 +19,7 @@ public class CreativeTab {
                     .withTabsBefore(CreativeModeTabs.COMBAT)
                     .icon(() -> ModFluids.MOLTEN_IRON.getBucket().get().getDefaultInstance())
                     .displayItems((parameters, output) -> {
-                        output.accept(ModItems.RAW_IRON_CHUNK.get());
-                        output.accept(ModItems.RAW_COPPER_CHUNK.get());
-                        output.accept(ModItems.RAW_ZINC_CHUNK.get());
-                        output.accept(ModItems.RAW_GOLD_CHUNK.get());
-                        output.accept(ModItems.DEEPSLATE_CHUNK.get());
-                        output.accept(ModItems.NETHERACK_POWDER.get());
-                        output.accept(ModItems.QUARTZ_SHARD.get());
-                        output.accept(ModFluids.MOLTEN_IRON.getBucket().get());
-                        output.accept(ModFluids.MOLTEN_COPPER.getBucket().get());
-                        output.accept(ModFluids.MOLTEN_ZINC.getBucket().get());
-                        output.accept(ModFluids.MOLTEN_GOLD.getBucket().get());
-                        output.accept(ModFluids.MOLTEN_BRASS.getBucket().get());
-                        output.accept(ModFluids.HEAVY_METAL.getBucket().get());
-                        output.accept(ModFluids.IRRIATED_MIX.getBucket().get());
+                        ModItems.getAllItems().forEach(item -> output.accept(item.get()));
+                        ModFluids.getAllFluids().forEach(fluid -> output.accept(fluid.getBucket().get()));
                     }).build());
 }
-
