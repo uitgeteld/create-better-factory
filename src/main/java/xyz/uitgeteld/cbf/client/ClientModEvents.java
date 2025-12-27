@@ -14,13 +14,7 @@ public class ClientModEvents {
 
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
-        setFluidRenderLayer(ModFluids.MOLTEN_IRON);
-        setFluidRenderLayer(ModFluids.MOLTEN_COPPER);
-        setFluidRenderLayer(ModFluids.MOLTEN_ZINC);
-        setFluidRenderLayer(ModFluids.MOLTEN_GOLD);
-        setFluidRenderLayer(ModFluids.MOLTEN_BRASS);
-        setFluidRenderLayer(ModFluids.HEAVY_METAL);
-        setFluidRenderLayer(ModFluids.IRRIATED_MIX);
+        ModFluids.getAllFluids().forEach(ClientModEvents::setFluidRenderLayer);
     }
 
     private static void setFluidRenderLayer(xyz.uitgeteld.cbf.fluid.FluidRegistry fluid) {
