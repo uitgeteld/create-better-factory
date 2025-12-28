@@ -6,16 +6,16 @@
       "amount": 45
     },
     {
-      "tag": "cbf:ore_bearings"
+      "tag": "cbf:cobbled_ore_bearings"
     },
     {
-      "tag": "cbf:ore_bearings"
+      "tag": "cbf:cobbled_ore_bearings"
     },
     {
-      "tag": "cbf:ore_bearings"
+      "tag": "cbf:cobbled_ore_bearings"
     },
     {
-      "tag": "cbf:ore_bearings"
+      "tag": "cbf:cobbled_ore_bearings"
     }
   ],
   "results": [
@@ -23,5 +23,6 @@
       "item": "createnuclear:raw_uranium"
     }
   ],
+  "heatRequirement": "heated",
   "processingTime": 200
 }

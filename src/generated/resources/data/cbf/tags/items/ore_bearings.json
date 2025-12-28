@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecraft:cobblestone",
-    "minecraft:cobbled_deepslate"
+    "minecraft:stone",
+    "minecraft:deepslate"
   ]
 }
