@@ -1,5 +1,6 @@
 package xyz.uitgeteld.cbf;
 
+import com.simibubi.create.foundation.data.CreateRegistrate;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -20,6 +21,7 @@ import xyz.uitgeteld.cbf.tab.CreativeTab;
 public class Cbf {
     public static final String MODID = "cbf";
     public static final Logger LOGGER = LogUtils.getLogger();
+    public static final CreateRegistrate REGISTRATE = CreateRegistrate.create(MODID);
 
     public Cbf() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -36,9 +38,4 @@ public class Cbf {
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {}
-
-    @SubscribeEvent
-    public void onCommandRegister(RegisterCommandsEvent event) {
-    }
 }
-
