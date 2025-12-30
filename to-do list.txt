@@ -1,7 +1,7 @@
 - Add custom woodburner
 - Finish recipes for netherrack powder/dust
 - Add Quartz-Shards item {
-    Tools,
+    Tools (Sword with bleed effect, Pickaxe with gold speed + iron durability),
     Armor
 }
 

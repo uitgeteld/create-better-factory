@@ -21,7 +21,7 @@ import xyz.uitgeteld.cbf.tab.CreativeTab;
 public class Cbf {
     public static final String MODID = "cbf";
     public static final Logger LOGGER = LogUtils.getLogger();
-    public static final CreateRegistrate REGISTRATE = CreateRegistrate.create(MODID);
+//    public static final CreateRegistrate REGISTRATE = CreateRegistrate.create(MODID);
 
     public Cbf() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
