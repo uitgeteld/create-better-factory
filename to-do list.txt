@@ -3,6 +3,7 @@
 - Add Quartz-Shards item {
     Tools (Sword with bleed effect, Pickaxe with gold speed + iron durability),
     Armor
+    Custom Models + Textures
 }
 
 - {

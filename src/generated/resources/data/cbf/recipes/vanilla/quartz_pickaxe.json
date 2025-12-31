@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": { "item": "cbf:quartz_shard" },
+    "b": { "item": "minecraft:stick" }
+  },
+  "result": {
+    "item": "cbf:quartz_pickaxe"
+  }
+}
