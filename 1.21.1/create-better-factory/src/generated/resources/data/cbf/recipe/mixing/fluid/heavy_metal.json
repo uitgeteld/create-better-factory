@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:copper_nugget"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "type": "fluid_tag",
+      "amount": 1000,
+      "fluid_tag": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "id": "cbf:heavy_metal",
+      "amount": 45
+    }
+  ],
+  "heatRequirement": "superheated",
+  "processingTime": 200
+}

@@ -14,7 +14,7 @@ import xyz.uitgeteld.cbf.fluid.ModFluids;
 
 import static xyz.uitgeteld.cbf.Cbf.MODID;
 
-@EventBusSubscriber(modid = MODID, value = Dist.CLIENT, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = MODID, value = Dist.CLIENT)
 public class ClientModEvents {
 
     @SubscribeEvent

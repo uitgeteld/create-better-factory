@@ -1,0 +1,24 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "minecraft:diorite"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:calcite",
+      "count": 4
+    }
+  ],
+  "processingTime": 100
+}

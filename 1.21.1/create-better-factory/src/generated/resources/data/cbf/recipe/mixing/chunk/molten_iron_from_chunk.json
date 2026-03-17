@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "cbf:raw_iron_chunk"
+    }
+  ],
+  "results": [
+    {
+      "id": "cbf:molten_iron",
+      "amount": 5
+    }
+  ],
+  "heatRequirement": "heated",
+  "processingTime": 200
+}

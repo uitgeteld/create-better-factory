@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "fluid_tag",
+      "amount": 45,
+      "fluid_tag": "cbf:heavy_metal"
+    },
+    {
+      "item": "cbf:netherrack_powder"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "results": [
+    {
+      "id": "cbf:irradiated_mix",
+      "amount": 45
+    }
+  ],
+  "heatRequirement": "heated",
+  "processingTime": 250
+}

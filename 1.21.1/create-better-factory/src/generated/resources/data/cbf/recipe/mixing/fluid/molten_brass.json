@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "fluid_tag",
+      "amount": 15,
+      "fluid_tag": "cbf:molten_copper"
+    },
+    {
+      "type": "fluid_tag",
+      "amount": 30,
+      "fluid_tag": "cbf:molten_zinc"
+    }
+  ],
+  "results": [
+    {
+      "id": "cbf:molten_brass",
+      "amount": 90
+    }
+  ],
+  "heatRequirement": "heated",
+  "processingTime": 200
+}

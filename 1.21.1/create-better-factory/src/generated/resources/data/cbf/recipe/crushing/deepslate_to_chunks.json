@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:deepslate"
+    }
+  ],
+  "results": [
+    {
+      "id": "cbf:raw_iron_chunk",
+      "chance": 0.3
+    },
+    {
+      "id": "cbf:raw_copper_chunk",
+      "chance": 0.25
+    },
+    {
+      "id": "cbf:raw_zinc_chunk",
+      "chance": 0.2
+    },
+    {
+      "id": "cbf:raw_gold_chunk",
+      "chance": 0.15
+    },
+    {
+      "id": "create:experience_nugget",
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 300
+}

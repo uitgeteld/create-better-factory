@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "type": "fluid_tag",
+      "amount": 45,
+      "fluid_tag": "cbf:irradiated_mix"
+    },
+    {
+      "tag": "cbf:cobbled_ore_bearings"
+    },
+    {
+      "tag": "cbf:cobbled_ore_bearings"
+    },
+    {
+      "tag": "cbf:cobbled_ore_bearings"
+    },
+    {
+      "tag": "cbf:cobbled_ore_bearings"
+    }
+  ],
+  "results": [
+    {
+      "id": "createnuclear:raw_uranium",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "heated",
+  "processingTime": 200
+}

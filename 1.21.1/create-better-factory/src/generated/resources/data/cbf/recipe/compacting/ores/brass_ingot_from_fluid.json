@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "type": "fluid_tag",
+      "amount": 45,
+      "fluid_tag": "cbf:molten_brass"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:brass_ingot"
+    }
+  ],
+  "processingTime": 200
+}
