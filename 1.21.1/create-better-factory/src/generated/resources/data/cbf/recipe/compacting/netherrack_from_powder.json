@@ -2,6 +2,11 @@
   "type": "create:compacting",
   "ingredients": [
     {
+      "type": "fluid_tag",
+      "amount": 25,
+      "fluid_tag": "minecraft:lava"
+    },
+    {
       "item": "minecraft:cobblestone"
     },
     {

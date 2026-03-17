@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "minecraft:coals"
+    }
+  ],
+  "results": [
+    {
+      "id": "createnuclear:coal_dust"
+    }
+  ],
+  "processingTime": 300
+}
