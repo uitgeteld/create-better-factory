@@ -3,21 +3,11 @@
   "ingredients": [
     {
       "item": "minecraft:diorite"
-    },
-    {
-      "item": "minecraft:diorite"
-    },
-    {
-      "item": "minecraft:diorite"
-    },
-    {
-      "item": "minecraft:diorite"
     }
   ],
   "results": [
     {
-      "id": "minecraft:calcite",
-      "count": 4
+      "id": "minecraft:calcite"
     }
   ],
   "processingTime": 100

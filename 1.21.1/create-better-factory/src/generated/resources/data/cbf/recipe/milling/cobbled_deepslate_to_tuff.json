@@ -3,21 +3,11 @@
   "ingredients": [
     {
       "item": "minecraft:cobbled_deepslate"
-    },
-    {
-      "item": "minecraft:cobbled_deepslate"
-    },
-    {
-      "item": "minecraft:cobbled_deepslate"
-    },
-    {
-      "item": "minecraft:cobbled_deepslate"
     }
   ],
   "results": [
     {
-      "id": "minecraft:tuff",
-      "count": 4
+      "id": "minecraft:tuff"
     }
   ],
   "processingTime": 100
