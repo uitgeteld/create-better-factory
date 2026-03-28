@@ -133,11 +133,11 @@ public class ModFluids {
 
         private static BaseFlowingFluid.Properties getIrradiatedMixProperties() {
         return FluidRegistrationHelper.createMoltenFluidProperties(
-                                ModFluidTypes.IRRADIATED_MIX_TYPE,
-                                IRRADIATED_MIX,
-                                IRRADIATED_MIX_FLOWING,
-                                () -> (LiquidBlock) ModBlocks.IRRADIATED_MIX_BLOCK.get(),
-                                ModItems.IRRADIATED_MIX_BUCKET
+                ModFluidTypes.IRRADIATED_MIX_TYPE,
+                IRRADIATED_MIX,
+                IRRADIATED_MIX_FLOWING,
+                () -> (LiquidBlock) ModBlocks.IRRADIATED_MIX_BLOCK.get(),
+                ModItems.IRRADIATED_MIX_BUCKET
         );
     }
 }

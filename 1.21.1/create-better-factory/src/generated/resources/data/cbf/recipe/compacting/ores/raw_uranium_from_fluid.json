@@ -25,6 +25,6 @@
       "count": 2
     }
   ],
-  "heatRequirement": "heated",
-  "processingTime": 200
+  "heat_requirement": "heated",
+  "processing_time": 200
 }

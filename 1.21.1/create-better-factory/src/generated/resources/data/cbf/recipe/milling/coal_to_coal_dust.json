@@ -7,8 +7,9 @@
   ],
   "results": [
     {
-      "id": "createnuclear:coal_dust"
+      "id": "createnuclear:coal_dust",
+      "count": 4
     }
   ],
-  "processingTime": 300
+  "processing_time": 300
 }

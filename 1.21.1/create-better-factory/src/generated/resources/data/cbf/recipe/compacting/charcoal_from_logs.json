@@ -16,6 +16,6 @@
       "count": 4
     }
   ],
-  "processingTime": 150,
-  "heatRequirement": "heated"
+  "processing_time": 150,
+  "heat_requirement": "heated"
 }

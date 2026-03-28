@@ -22,6 +22,6 @@
       "amount": 45
     }
   ],
-  "heatRequirement": "superheated",
-  "processingTime": 200
+  "heat_requirement": "superheated",
+  "processing_time": 200
 }

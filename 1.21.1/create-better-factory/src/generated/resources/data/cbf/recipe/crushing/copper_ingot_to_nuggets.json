@@ -7,14 +7,14 @@
   ],
   "results": [
     {
-      "id": "minecraft:copper_nugget",
+      "id": "create:copper_nugget",
       "count": 2
     },
     {
       "id": "minecraft:gravel"
     },
     {
-      "id": "minecraft:copper_nugget",
+      "id": "create:copper_nugget",
       "chance": 0.3
     },
     {
@@ -22,5 +22,5 @@
       "chance": 0.05
     }
   ],
-  "processingTime": 200
+  "processing_time": 200
 }
