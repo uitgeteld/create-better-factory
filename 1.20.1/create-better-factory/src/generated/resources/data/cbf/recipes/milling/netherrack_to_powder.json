@@ -2,21 +2,13 @@
   "type": "create:milling",
   "ingredients": [
     {
-      "item": "minecraft:netherrack"
+      "tag": "minecraft:netherrack"
     }
   ],
   "results": [
     {
       "item": "cbf:netherrack_powder",
       "count": 4
-    },
-    {
-      "item": "minecraft:gold_nugget",
-      "chance": 0.2
-    },
-    {
-      "item": "cbf:quartz_shard",
-      "chance": 0.1
     }
   ],
   "processingTime": 300

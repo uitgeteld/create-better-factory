@@ -9,7 +9,7 @@
       "item": "cbf:netherrack_powder"
     },
     {
-      "item": "minecraft:oak_sapling"
+      "tag": "minecraft:saplings"
     }
   ],
   "results": [
